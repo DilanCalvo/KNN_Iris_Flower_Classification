@@ -77,7 +77,7 @@ The dataset (`iris_dataset.csv`) contains **150 samples** from 3 iris species:
 
 - **Algorithm:** K-Nearest Neighbors (`KNeighborsClassifier`)
 - **Preprocessing:** `StandardScaler` (feature normalization — essential for distance-based algorithms)
-- **Hyperparameter tuning:** `GridSearchCV` over `n_neighbors` (odd values 1–31) and `weights` (`uniform` / `distance`)
+- **Hyperparameter tuning:** `GridSearchCV` over `n_neighbors` (odd values 1–10) and `weights` (`uniform` / `distance`)
 - **Cross-validation:** 10-fold `StratifiedKFold`
 - **Scoring metric:** Weighted F1-Score
 
